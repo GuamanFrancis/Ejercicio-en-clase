@@ -2,10 +2,13 @@
 public class Main {
     public static void main(String[] args) {
 
-        PeliculasAccion PeliculasAccion1 = new PeliculasAccion("RE",2000,"Accion");
+
+        PeliculasAnimacion PeliculaAnimacion1 = new PeliculasAnimacion("COCO",2016,"Mexico",1000.000,10,9.8,30,"Español");
 
 
-        PeliculasAccion1.mostrarinformacion();
+        
+        PeliculaAnimacion1.Imformacionpeliculaanimada();
+
 
 
 

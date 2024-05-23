@@ -31,3 +31,38 @@ public class PeliculasAnimacion extends Peliculas {
 
 
 }
+
+
+
+
+public class PeliculasAnimacionEEUU extends PeliculasAnimacion{
+    String EstudiodeAnimacion;
+    double Precio;
+
+    public PeliculasAnimacionEEUU(double  puntuacion, int Numerodeacotores, String idioma , String EstudiodeAnimacion, double Precio ){
+        super (puntuacion,Numerodeacotores, idioma);
+        this.EstudiodeAnimacion = EstudiodeAnimacion;
+        this.Precio = Precio;
+
+
+
+    }
+
+    public void  imformacionanimada(){
+        System.out.println("----------------------------------------\n");
+        System.out.println("Detalles de la pelicula\n");
+        System.out.println("Puntuacion: "+puntuacion+"\n");
+        System.out.println("N de actores: "+Numerodeactores+"\n");
+        System.out.println("Idioma: "+idioma+"\n");
+        System.out.println("Estudio de animacion: "+EstudiodeAnimacion+"\n");
+        System.out.println("Precio de entrada: "+Precio+"\n");
+        System.out.println("--------------------------------------------\n");
+
+
+
+    }
+
+
+
+
+}
